@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fafcc91-70e5-4f42-8f72-49d062aaf768" name="Default" comment="新建" />
+    <ignored path="$PROJECT_DIR$/cloud-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-client/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/target/" />
+    <ignored path="$PROJECT_DIR$/demo2/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-client/feign-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service2/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service2/ddd/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service2/feign-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service2/feign-user-service2/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service2/demo2/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service2/feign-user-service3/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service/feign-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service/sddd/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service/feign-user-service2/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service/demo/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-service/feign-classify-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-auth-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common2/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common2/cloud-security-feign/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common2/cloud-common-util/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-util/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-security-feign/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-feign-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service/feign-classify-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service/feign-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service/cloud-service-sort/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service/cloud-service-user/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service-api/cloud-service-user-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-utils/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-security/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-admin-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service-api/cloud-service-sort-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-config/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-core/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service/cloud-service-task/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-core/${project.build.directory}/classes/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-core/${project.build.directory}/test-classes/" />
+    <ignored path="$PROJECT_DIR$/cloud-common-core/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-component-core/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-component-common/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-component-config/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage/cloud-service-user/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage/cloud-service-sort/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage-api/cloud-service-sort-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage-api/cloud-service-user-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-interator/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-security-core/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-common-base/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/cloud-security-auth/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage/cloud-manage-sort/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage/cloud-manage-user/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringCloud$EurekaApplication.ic" NAME="EurekaApplication Coverage Results" MODIFIED="1540535671325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SpringCloud$CloudHystrixApplication.ic" NAME="CloudHystrixApplication Coverage Results" MODIFIED="1540535537098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SpringCloud$EurekaServerApplication.ic" NAME="EurekaServerApplication Coverage Results" MODIFIED="1540974610353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cloud.eureka.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/cloud-feign-client">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpringCloud" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1824">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/com/cloud/eureka/EurekaServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka/target/docker/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2280">
+              <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jackson-annotations</find>
+      <find>jackson.core</find>
+      <find>spring-boot-autoconfigure</find>
+      <find>zipkin-autoconfigure-ui</find>
+      <find>spring-cloud-config-client</find>
+      <find>zipkin-autoconfigure-storage-mysql</find>
+      <find>spring-boot-starter-jdbc</find>
+      <find>spring-cloud-starter-netflix-eureka-client</find>
+      <find>zipkin-autoconfigure-collector-rabbitmq</find>
+      <find>spring-boot-starter-actuator</find>
+      <find>spring-cloud-starter-bus-amqp</find>
+      <find>spring-retry</find>
+      <find>spring-boot-starter-aop</find>
+      <find>jooq</find>
+      <find>spring-boot-starter-data-redis</find>
+      <find>commons-io.version</find>
+      <find>mybatis-spring-boot-starter.version</find>
+      <find>commons-io</find>
+      <find>druid.version</find>
+      <find>common-io.version</find>
+      <find>commons.version</find>
+      <find>projectlombok.version</find>
+      <find>redis.clients.version</find>
+      <find>initDomainRedisTemplate</find>
+      <find>cloud-feign</find>
+      <find>getSortMessage</find>
+      <find>RsaResult</find>
+      <find>access-token</find>
+      <find>client</find>
+      <find>cloud-feign-client</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cloud-master" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/authorization/AuthorizationTask.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/java/com/cloud/feign/controller/SortController.java" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/java/com/cloud/feign/FeignSortServiceApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/java/com/cloud/feign/config/DruidConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/java/com/cloud/feign/config/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/cloud-turbine/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/java/com/cloud/feign/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/java/com/cloud/feign/serviceimpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/java/com/cloud/feign/model/User.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/model/User.java" />
+        <option value="$PROJECT_DIR$/cloud-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-component-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-component-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-component-common/src/main/java/com/cloud/feign/util/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/AuthorizationTask.java" />
+        <option value="$PROJECT_DIR$/cloud-component-config/src/main/java/com/cloud/config/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-component-core/src/main/java/com/cloud/core/constant/Const.java" />
+        <option value="$PROJECT_DIR$/cloud-component-core/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/BaseUtils.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/DataUtils.java" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/provider/UserProvider.java" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/cloud-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-sort/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="388" />
+    <option name="y" value="180" />
+    <option name="width" value="2108" />
+    <option name="height" value="1155" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="认证&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556093735919" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4107677" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My Object\cloud-master" />
+      <recent name="D:\My Object\cloud-master\cloud-common" />
+      <recent name="D:\My Object\SpringCloud" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-sort\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-sort\src\main\resources\logger" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloud.core.config" />
+      <recent name="com.cloud.zuul.config" />
+      <recent name="com.cloud.feign.config" />
+      <recent name="com.cloud.task.config" />
+      <recent name="com.cloud.feign.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-gateway\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-task\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-user\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-sort\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-common2\cloud-security-feign\src\main\java\com\cloud\feign" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+    <configuration name="JwtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.core.common.JwtUtils" />
+      <module name="cloud-common-core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.core.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="cloud-hystrix" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="cloud-master" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudServiceTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-service-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.task.CloudServiceTaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-turbine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.turbine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.turbine.CloudTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.config.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignSortServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-manage-sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.feign.FeignSortServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-manage-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.feign.FeignUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="feign-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.feign.FeignUserServiceApplication" />
+    </configuration>
+    <configuration name="HystrixServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.hystrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.hystrix.HystrixServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-zipkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.sleuthzipkin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.sleuthzipkin.ZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.zuul.ZuulServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JwtUtils" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.HystrixServerApplication" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.FeignSortServiceApplication" />
+      <item itemvalue="Spring Boot.CloudServiceTaskApplication" />
+      <item itemvalue="Spring Boot.FeignUserServiceApplication" />
+      <item itemvalue="Spring Boot.CloudTurbineApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZipkinServerApplication" />
+        <item itemvalue="Application.JwtUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Ala-User\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fafcc91-70e5-4f42-8f72-49d062aaf768" name="Default" comment="" />
+      <created>1540533782566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540533782566</updated>
+      <workItem from="1540533785116" duration="15017000" />
+      <workItem from="1540777750721" duration="8887000" />
+      <workItem from="1540793491563" duration="9192000" />
+      <workItem from="1540807138846" duration="12665000" />
+      <workItem from="1540885117892" duration="1001000" />
+      <workItem from="1540886177600" duration="4395000" />
+      <workItem from="1540890812939" duration="4617000" />
+      <workItem from="1540950544908" duration="2356000" />
+      <workItem from="1540952937736" duration="31270000" />
+      <workItem from="1541124919145" duration="20399000" />
+      <workItem from="1541381683419" duration="3716000" />
+      <workItem from="1541399489480" duration="13561000" />
+      <workItem from="1541466804168" duration="6004000" />
+      <workItem from="1541473774937" duration="15088000" />
+      <workItem from="1541560883032" duration="26571000" />
+      <workItem from="1541656189780" duration="15000" />
+      <workItem from="1542246719164" duration="620000" />
+      <workItem from="1542335365548" duration="10279000" />
+      <workItem from="1542678097967" duration="15986000" />
+      <workItem from="1542762647990" duration="17532000" />
+      <workItem from="1542795141472" duration="1343000" />
+      <workItem from="1542851771595" duration="22789000" />
+      <workItem from="1542937378789" duration="26787000" />
+      <workItem from="1543195838684" duration="25085000" />
+      <workItem from="1543282813644" duration="24590000" />
+      <workItem from="1543370081209" duration="23894000" />
+      <workItem from="1543454532734" duration="2872000" />
+      <workItem from="1543459735183" duration="4936000" />
+      <workItem from="1543542150323" duration="2777000" />
+      <workItem from="1543557097016" duration="1436000" />
+      <workItem from="1543558881079" duration="66000" />
+      <workItem from="1543558978769" duration="714000" />
+      <workItem from="1543559724903" duration="17000" />
+      <workItem from="1543559768098" duration="461000" />
+      <workItem from="1543560265447" duration="419000" />
+      <workItem from="1543560715030" duration="9753000" />
+      <workItem from="1543910839947" duration="5540000" />
+      <workItem from="1544173400178" duration="2300000" />
+      <workItem from="1544406808357" duration="1286000" />
+      <workItem from="1544511801158" duration="10554000" />
+      <workItem from="1544522469671" duration="778000" />
+      <workItem from="1544523280141" duration="874000" />
+      <workItem from="1544579175221" duration="25063000" />
+      <workItem from="1544665217202" duration="24094000" />
+      <workItem from="1544751044690" duration="8606000" />
+      <workItem from="1554797329239" duration="5213000" />
+      <workItem from="1556006095924" duration="545000" />
+      <workItem from="1556006664898" duration="12085000" />
+      <workItem from="1556087743361" duration="3971000" />
+      <workItem from="1556094344545" duration="7000" />
+      <workItem from="1556160901344" duration="5015000" />
+      <workItem from="1556172032387" duration="7805000" />
+      <workItem from="1556181659157" duration="3468000" />
+      <workItem from="1556195194561" duration="596000" />
+      <workItem from="1556248409475" duration="3435000" />
+    </task>
+    <task id="LOCAL-00001" summary="杂七杂八的修改">
+      <created>1540548962666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540548962666</updated>
+    </task>
+    <task id="LOCAL-00002" summary="杂七杂八的修改">
+      <created>1540981427805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540981427805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1、增加了服务认证机制">
+      <created>1541153815934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541153815934</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.调整包结构">
+      <created>1541475442258</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541475442259</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.调整包结构&#10;2.增加聚合监控&#10;3.增加日志输出">
+      <created>1543226466288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543226466288</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1.增加redis工具&#10;2.增加feign拦截器">
+      <created>1543400991399</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543400991400</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1.调整结构">
+      <created>1543571286273</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543571286273</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.调整结构">
+      <created>1544517114622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544517114622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.调整包结构">
+      <created>1544609291745</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544609291746</updated>
+    </task>
+    <task id="LOCAL-00010" summary="新建">
+      <created>1556248913301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556248913301</updated>
+    </task>
+    <task id="LOCAL-00011" summary="新建">
+      <created>1556250077267</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556250077267</updated>
+    </task>
+    <task id="LOCAL-00012" summary="新建">
+      <created>1556250582360</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556250582360</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DemoApplicationTests_getSortMessage - 2018.11.26 at 10h 22m 33s.xml">
+      <configuration name="DemoApplicationTests.getSortMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZuulServerApplicationTests_contextLoads - 2018.11.28 at 10h 07m 49s.xml">
+      <configuration name="ZuulServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZuulServerApplicationTests_contextLoads - 2018.11.28 at 10h 17m 59s.xml">
+      <configuration name="ZuulServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZuulServerApplicationTests_contextLoads - 2018.11.28 at 10h 22m 34s.xml">
+      <configuration name="ZuulServerApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="488345000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="388" y="180" width="2108" height="1155" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.26522595" />
+      <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.31343284" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50150603" side_tool="true" weight="0.31343284" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.50150603" side_tool="true" weight="0.31343284" />
+      <window_info id="设计师" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4997543" weight="0.32798395" />
+      <window_info anchor="bottom" x="22" y="393" width="1876" height="254" id="Run" order="2" weight="0.39278558" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2832244" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32865733" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32865733" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32865733" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002457" side_tool="true" weight="0.32798395" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.34302908" />
+      <window_info active="true" anchor="bottom" id="检验" order="11" sideWeight="0.49946696" visible="true" weight="0.5588235" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32865733" />
+      <window_info anchor="bottom" id="找到" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.4987715" weight="0.32832834" />
+      <window_info anchor="bottom" id="Build" order="16" sideWeight="0.84766585" weight="0.2775551" />
+      <window_info anchor="bottom" id="运行" order="17" />
+      <window_info anchor="bottom" id="Inspection Results" order="18" sideWeight="0.49840087" weight="0.45969498" />
+      <window_info anchor="bottom" id="调试" order="19" />
+      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run Dashboard" order="21" weight="0.3296593" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="22" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49675325" weight="0.24963145" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49837664" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.49837664" weight="0.32923833" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5016234" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="10" sideWeight="0.49837664" weight="0.32972974" />
+      <window_info anchor="right" id="Gradle" order="11" weight="0.32972974" />
+      <window_info anchor="right" id="控制板" order="12" />
+      <window_info anchor="right" id="Maven" order="13" weight="0.21070726" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="cloud-master" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/cloud-master" />
+    </ignored-roots>
+    <MESSAGE value="杂七杂八的修改" />
+    <MESSAGE value="1、增加了服务认证机制" />
+    <MESSAGE value="1.调整包结构&#10;2.增加聚合监控&#10;3.增加日志输出" />
+    <MESSAGE value="1.增加redis工具&#10;2.增加feign拦截器" />
+    <MESSAGE value="1.调整结构" />
+    <MESSAGE value="1.调整包结构" />
+    <MESSAGE value="新建" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-feign-client/src/main/java/com/cloud/feign/Exception/ExceptionService.java</url>
+          <line>17</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/common/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/TokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/FeignInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-sort/src/main/java/com/cloud/feign/mapper/SortMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/DruidConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/java/com/cloud/config/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/BaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/AuthorizationTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/CodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/DataUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/provider/UserProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/com/cloud/eureka/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-turbine/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix/src/main/java/com/cloud/hystrix/HystrixServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.3.RELEASE/spring-boot-starter-parent-2.0.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="949">
+          <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-turbine/src/main/java/com/cloud/turbine/CloudTurbineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-security-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-security-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-542">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-sort/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.3.9/lib/maven-model-builder-3.3.9.jar!/org/apache/maven/model/pom-4.0.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="61" column="16" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-monitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-turbine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka/target/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/com/cloud/eureka/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4107677" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (cloud-zipkin)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4107677" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4107677" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4107677" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cloud-manage-user</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4107677" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4107677" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="D:\My Object\cloud-master\cloud-eureka" />
+    <option value="clean package docker:build" />
+    <option value="package -Dmaven.test.failture.ignore=true" />
+    <option value="docker images" />
+    <option value="clean package -Dmaven.test.skip=true" />
+  </component>
+</project>

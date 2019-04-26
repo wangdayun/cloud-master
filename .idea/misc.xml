@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign-service2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign-service2/feign-user-service3/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign-service/feign-user-service2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign-service/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign-service/feign-classify-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common2/cloud-security-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common2/cloud-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-api/cloud-service-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-api/cloud-service-sort-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-component-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-component-core/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-component-config/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

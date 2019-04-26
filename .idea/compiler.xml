@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-zipkin" />
+        <module name="cloud-manage-user-api" />
+        <module name="cloud-common-util" />
+        <module name="cloud-manage-user" />
+        <module name="cloud-manage-sort-api" />
+        <module name="cloud-security-core" />
+        <module name="cloud-common-base" />
+        <module name="cloud-monitor" />
+        <module name="cloud-common-config" />
+        <module name="cloud-manage-sort" />
+        <module name="cloud-turbine" />
+        <module name="cloud-gateway" />
+        <module name="cloud-common-core" />
+        <module name="cloud-eureka" />
+        <module name="cloud-hystrix" />
+        <module name="cloud-manage-api" />
+        <module name="cloud-security-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-admin-monitor" target="1.8" />
+      <module name="cloud-auth-server" target="1.8" />
+      <module name="cloud-auth-service" target="1.8" />
+      <module name="cloud-common" target="1.8" />
+      <module name="cloud-common-security" target="1.8" />
+      <module name="cloud-common2" target="1.5" />
+      <module name="cloud-config" target="1.8" />
+      <module name="cloud-feign-client" target="1.8" />
+      <module name="cloud-feign-service2" target="1.5" />
+      <module name="cloud-feign-service3" target="1.8" />
+      <module name="cloud-service-task" target="1.8" />
+      <module name="ddd" target="1.8" />
+      <module name="demo2" target="1.8" />
+      <module name="demo5" target="1.8" />
+      <module name="feign-service-user" target="1.8" />
+      <module name="feign-user-service3" target="1.8" />
+      <module name="feignuserservice" target="1.8" />
+      <module name="sddd" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-common" options="-parameters" />
+      <module name="cloud-common-base" options="-parameters" />
+      <module name="cloud-common-config" options="-parameters" />
+      <module name="cloud-common-core" options="-parameters" />
+      <module name="cloud-common-util" options="-parameters" />
+      <module name="cloud-config" options="-parameters" />
+      <module name="cloud-eureka" options="-parameters" />
+      <module name="cloud-gateway" options="-parameters" />
+      <module name="cloud-hystrix" options="-parameters" />
+      <module name="cloud-manage-api" options="-parameters" />
+      <module name="cloud-manage-sort" options="-parameters" />
+      <module name="cloud-manage-sort-api" options="-parameters" />
+      <module name="cloud-manage-user" options="-parameters" />
+      <module name="cloud-manage-user-api" options="-parameters" />
+      <module name="cloud-monitor" options="-parameters" />
+      <module name="cloud-security-auth" options="-parameters" />
+      <module name="cloud-security-core" options="-parameters" />
+      <module name="cloud-turbine" options="-parameters" />
+      <module name="cloud-zipkin" options="-parameters" />
+    </option>
+  </component>
+</project>
