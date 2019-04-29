@@ -15,18 +15,4 @@ public interface UserService {
      * @return
      */
     List getUserMessage();
-
-    /**
-     * 获取测试信息
-     *
-     * @return
-     */
-    List getTestMessage();
-
-    /**
-     * 获取分类信息
-     *
-     * @return
-     */
-    List getSortMessage();
 }

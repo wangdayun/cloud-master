@@ -7,22 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-zipkin" />
-        <module name="cloud-manage-user-api" />
         <module name="cloud-common-util" />
         <module name="cloud-manage-user" />
-        <module name="cloud-manage-sort-api" />
+        <module name="cloud-manage-api" />
         <module name="cloud-security-core" />
         <module name="cloud-common-base" />
+        <module name="cloud-discovery" />
         <module name="cloud-monitor" />
         <module name="cloud-common-config" />
-        <module name="cloud-manage-sort" />
         <module name="cloud-turbine" />
         <module name="cloud-gateway" />
         <module name="cloud-common-core" />
         <module name="cloud-eureka" />
         <module name="cloud-hystrix" />
-        <module name="cloud-manage-api" />
         <module name="cloud-security-auth" />
+        <module name="cloud-manage-user-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,10 +31,11 @@
       <module name="cloud-common" target="1.8" />
       <module name="cloud-common-security" target="1.8" />
       <module name="cloud-common2" target="1.5" />
-      <module name="cloud-config" target="1.8" />
       <module name="cloud-feign-client" target="1.8" />
       <module name="cloud-feign-service2" target="1.5" />
       <module name="cloud-feign-service3" target="1.8" />
+      <module name="cloud-manage-sort" target="1.8" />
+      <module name="cloud-manage-sort-api" target="1.8" />
       <module name="cloud-service-task" target="1.8" />
       <module name="ddd" target="1.8" />
       <module name="demo2" target="1.8" />
@@ -53,7 +53,7 @@
       <module name="cloud-common-config" options="-parameters" />
       <module name="cloud-common-core" options="-parameters" />
       <module name="cloud-common-util" options="-parameters" />
-      <module name="cloud-config" options="-parameters" />
+      <module name="cloud-discovery" options="-parameters" />
       <module name="cloud-eureka" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
       <module name="cloud-hystrix" options="-parameters" />

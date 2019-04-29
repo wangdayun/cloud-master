@@ -25,7 +25,7 @@ public class FeignUserServiceApplication {
     }
 
     /**
-     * 增加断路监控，显示请求状态
+     * 断路监控，显示请求状态
      *
      * @return
      */

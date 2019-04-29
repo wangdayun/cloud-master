@@ -9,15 +9,13 @@
     <file url="file://$PROJECT_DIR$/cloud-common/cloud-common-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-common/cloud-security-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-common/cloud-security-core" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-discovery" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-manage" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-manage-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-manage/cloud-manage-sort" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-turbine" charset="UTF-8" />

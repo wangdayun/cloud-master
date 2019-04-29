@@ -1,11 +1,11 @@
 package com.cloud.core.interceptor;
 
-import com.cloud.core.constant.Const;
-import com.cloud.feign.util.RedisUtils;
+import com.cloud.core.common.JwtKeyUtils;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+
+import java.util.UUID;
 
 /**
  * 设置通用签名
@@ -15,11 +15,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class FeignInterceptor implements RequestInterceptor {
 
-    @Autowired
-    private RedisUtils redisUtils;
-
     @Override
     public void apply(RequestTemplate requestTemplate) {
-        requestTemplate.header("access-token", redisUtils.get(Const.RedisKeyConfig.AUTHORIZATION + ":authorization").toString());
+        requestTemplate.header("x-label", JwtKeyUtils.getToken(UUID.randomUUID().toString()));
     }
 }

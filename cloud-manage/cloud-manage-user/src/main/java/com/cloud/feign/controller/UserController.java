@@ -28,10 +28,4 @@ public class UserController {
     public DataUtils getUserMessage() throws IOException {
         return DataUtils.ok(userService.getUserMessage());
     }
-
-    @RequestMapping(value = "getSortMessage")
-    public DataUtils getSortMessage(HttpServletRequest request) throws IOException {
-        System.out.println("authorization:"+request.getHeader("access-token"));
-        return DataUtils.ok(userService.getSortMessage());
-    }
 }

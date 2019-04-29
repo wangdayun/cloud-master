@@ -19,10 +19,4 @@ public class DemoApplicationTests {
     @Test
     public void contextLoads() {
     }
-
-    @Test
-    public void getSortMessage(){
-        List list = userService.getSortMessage();
-        System.out.println("list长度："+list.size());
-    }
 }

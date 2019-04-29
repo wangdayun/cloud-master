@@ -73,6 +73,7 @@
     <ignored path="$PROJECT_DIR$/cloud-manage/cloud-manage-user/target/" />
     <ignored path="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/target/" />
     <ignored path="$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-discovery/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,87 +127,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessAuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+            <state relative-caret-position="722">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-gateway/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1824">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="38">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="38">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/com/cloud/eureka/EurekaServerApplication.java">
+        <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/TokenInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="542">
+              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka/target/docker/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="76">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -224,11 +196,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jackson-annotations</find>
-      <find>jackson.core</find>
-      <find>spring-boot-autoconfigure</find>
-      <find>zipkin-autoconfigure-ui</find>
-      <find>spring-cloud-config-client</find>
       <find>zipkin-autoconfigure-storage-mysql</find>
       <find>spring-boot-starter-jdbc</find>
       <find>spring-cloud-starter-netflix-eureka-client</find>
@@ -254,6 +221,11 @@
       <find>access-token</find>
       <find>client</find>
       <find>cloud-feign-client</find>
+      <find>definition</find>
+      <find>counterFactory</find>
+      <find>2.1.1</find>
+      <find>RedisUtils</find>
+      <find>preHandle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,57 +234,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-gateway/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/authorization/AuthorizationTask.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/DruidConfiguration.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/RedisConfiguration.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/DruidConfiguration.java" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/java/com/cloud/feign/controller/SortController.java" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/java/com/cloud/feign/FeignSortServiceApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/java/com/cloud/feign/config/DruidConfiguration.java" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/java/com/cloud/feign/config/RedisConfiguration.java" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/cloud-turbine/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/java/com/cloud/feign/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/cloud-service/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-sort/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessFilter.java" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/java/com/cloud/feign/serviceimpl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-service/cloud-service-user/src/main/java/com/cloud/feign/model/User.java" />
-        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/model/User.java" />
-        <option value="$PROJECT_DIR$/cloud-common-core/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-gateway/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-component-common/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-component-config/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-component-common/src/main/java/com/cloud/feign/util/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/AuthorizationTask.java" />
-        <option value="$PROJECT_DIR$/cloud-component-config/src/main/java/com/cloud/config/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-component-core/src/main/java/com/cloud/core/constant/Const.java" />
-        <option value="$PROJECT_DIR$/cloud-component-core/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-common/cloud-common-base/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/BaseUtils.java" />
         <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/DataUtils.java" />
         <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/provider/UserProvider.java" />
         <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/cloud-manage/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-manage-api/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-turbine/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-sort/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-hystrix/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka/target/docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/FeignUserServiceApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/AuthorizationTask.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/common/FallBack.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/common/FallBackResult.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/fallback/FallBackProvider.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/ReletTokenFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessTokenFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/common/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/common/JwtTokenUtils.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/RedisConfiguration.java" />
         <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-discovery/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/Eunms/StatusCodeEnums.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/DateUtils.java" />
+        <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/model/User.java" />
         <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/service/UserService.java" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/service/serviceimpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/test/java/com/cloud/feign/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cloud-discovery/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/cloud-discovery/src/main/resources/application-test.properties" />
+        <option value="$PROJECT_DIR$/cloud-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/fallback/ZuulFallBackProvider.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/ZuulServerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/config/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/FeignInterceptor.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/common/JwtKeyUtils.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/test/java/com/cloud/zuul/ZuulServerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessAuthFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/TokenInterceptor.java" />
       </list>
     </option>
   </component>
@@ -337,14 +309,30 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-master" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-master" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-master" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="388" />
-    <option name="y" value="180" />
-    <option name="width" value="2108" />
+    <option name="x" value="333" />
+    <option name="y" value="165" />
+    <option name="width" value="2109" />
     <option name="height" value="1155" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -362,46 +350,6 @@
             <path>
               <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,18 +376,18 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4107677" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My Object\cloud-master" />
-      <recent name="D:\My Object\cloud-master\cloud-common" />
-      <recent name="D:\My Object\SpringCloud" />
-      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-sort\src\main\resources" />
-      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-sort\src\main\resources\logger" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-gateway\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-task\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-user\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-sort\src\main\resources" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-common2\cloud-security-feign\src\main\java\com\cloud\feign" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cloud.core.config" />
@@ -448,12 +396,12 @@
       <recent name="com.cloud.task.config" />
       <recent name="com.cloud.feign.util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-gateway\src\main\resources" />
-      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-task\src\main\resources" />
-      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-user\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My Object\cloud-master" />
+      <recent name="D:\My Object\cloud-master\cloud-common" />
+      <recent name="D:\My Object\SpringCloud" />
       <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-sort\src\main\resources" />
-      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-common2\cloud-security-feign\src\main\java\com\cloud\feign" />
+      <recent name="D:\IDEAUtils\project\SpringCloud\cloud-service\cloud-service-sort\src\main\resources\logger" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -472,15 +420,72 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.1954023" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
-    <configuration name="JwtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.core.common.JwtUtils" />
-      <module name="cloud-common-core" />
+  <component name="RunManager" selected="Application.ZuulServerApplicationTests (4)">
+    <configuration name="ZuulServerApplicationTests (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.zuul.ZuulServerApplicationTests" />
+      <module name="cloud-gateway" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cloud.core.common.*" />
+          <option name="PATTERN" value="com.cloud.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplicationTests (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.zuul.ZuulServerApplicationTests" />
+      <module name="cloud-gateway" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplicationTests (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.zuul.ZuulServerApplicationTests" />
+      <module name="cloud-gateway" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplicationTests (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.zuul.ZuulServerApplicationTests" />
+      <module name="cloud-gateway" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.zuul.ZuulServerApplicationTests" />
+      <module name="cloud-gateway" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.zuul.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -575,7 +580,7 @@
       </method>
     </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="cloud-config" />
+      <module name="cloud-discovery" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cloud.config.*" />
@@ -649,14 +654,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-zipkin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cloud.sleuthzipkin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.sleuthzipkin.ZipkinServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -685,7 +684,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JwtUtils" />
+      <item itemvalue="Application.ZuulServerApplicationTests" />
+      <item itemvalue="Application.ZuulServerApplicationTests (1)" />
+      <item itemvalue="Application.ZuulServerApplicationTests (2)" />
+      <item itemvalue="Application.ZuulServerApplicationTests (3)" />
+      <item itemvalue="Application.ZuulServerApplicationTests (4)" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.HystrixServerApplication" />
@@ -698,8 +701,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ZipkinServerApplication" />
-        <item itemvalue="Application.JwtUtils" />
+        <item itemvalue="Application.ZuulServerApplicationTests (4)" />
+        <item itemvalue="Application.ZuulServerApplicationTests (3)" />
+        <item itemvalue="Application.ZuulServerApplicationTests (2)" />
+        <item itemvalue="Application.ZuulServerApplicationTests (1)" />
+        <item itemvalue="Application.ZuulServerApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -767,7 +773,10 @@
       <workItem from="1556172032387" duration="7805000" />
       <workItem from="1556181659157" duration="3468000" />
       <workItem from="1556195194561" duration="596000" />
-      <workItem from="1556248409475" duration="3907000" />
+      <workItem from="1556248409475" duration="18778000" />
+      <workItem from="1556371623121" duration="239000" />
+      <workItem from="1556415672873" duration="22209000" />
+      <workItem from="1556502442317" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="杂七杂八的修改">
       <created>1540548962666</created>
@@ -871,7 +880,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="488817000" />
+    <option name="totallyTimeSpent" value="526536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,9 +892,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="388" y="180" width="2108" height="1155" extended-state="0" />
+    <frame x="333" y="165" width="2109" height="1155" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.26522595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.27638686" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.31343284" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -896,7 +905,7 @@
       <window_info id="设计师" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4997543" weight="0.32798395" />
-      <window_info anchor="bottom" x="22" y="393" width="1876" height="254" id="Run" order="2" weight="0.39278558" />
+      <window_info anchor="bottom" x="22" y="393" width="1876" height="254" id="Run" order="2" weight="0.2792793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2832244" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -904,7 +913,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32865733" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32865733" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002457" side_tool="true" weight="0.32798395" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.34302908" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.34234235" />
       <window_info active="true" anchor="bottom" id="检验" order="11" sideWeight="0.49946696" visible="true" weight="0.5588235" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32865733" />
       <window_info anchor="bottom" id="找到" order="13" />
@@ -915,7 +924,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="18" sideWeight="0.49840087" weight="0.45969498" />
       <window_info anchor="bottom" id="调试" order="19" />
       <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="21" weight="0.3296593" />
+      <window_info anchor="bottom" id="Run Dashboard" order="21" weight="0.34634635" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="22" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49675325" weight="0.24963145" />
@@ -930,7 +939,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" sideWeight="0.49837664" weight="0.32972974" />
       <window_info anchor="right" id="Gradle" order="11" weight="0.32972974" />
       <window_info anchor="right" id="控制板" order="12" />
-      <window_info anchor="right" id="Maven" order="13" weight="0.21070726" />
+      <window_info anchor="right" id="Maven" order="13" weight="0.26313207" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -971,6 +980,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -995,6 +1018,12 @@
           <line>17</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/controller/UserController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1003,97 +1032,310 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/RedisConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="76">
+          <caret line="4" column="72" lean-forward="true" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.2.RELEASE/spring-retry-1.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" selection-start-line="37" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/ConverterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/common/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/TokenInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/FeignInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-sort/src/main/java/com/cloud/feign/mapper/SortMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/DruidConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/java/com/cloud/config/ConfigServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/config/RedisConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="2337">
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/constant/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/constant/RsaResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/exception/GlobalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/exception/HandlerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/exception/ParamException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/exception/ServerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="379" column="45" lean-forward="true" selection-start-line="379" selection-start-column="45" selection-end-line="379" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/service/serviceimpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/test/java/com/cloud/feign/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-discovery/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-discovery/src/main/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-discovery/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/com/cloud/eureka/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-discovery/src/main/java/com/cloud/config/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-discovery/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/FeignUserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/config/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/config/WebConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/fallback/ZuulFallBackProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/common/RsaKeyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4068">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/BaseUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+        <state relative-caret-position="229">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessFilter.java">
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/common/JwtKeyUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="424">
+          <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/ZuulServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/FeignInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/AuthorizationTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/config/RedisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1102,260 +1344,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/CodeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="513">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/src/main/java/com/cloud/feign/util/DataUtils.java">
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/test/java/com/cloud/zuul/ZuulServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="491">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/provider/UserProvider.java">
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/ZuulServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="222">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/FilterProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/com/cloud/eureka/config/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="38">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-turbine/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="38">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix/src/main/java/com/cloud/hystrix/HystrixServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/src/main/java/com/cloud/feign/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="418">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.3.RELEASE/spring-boot-starter-parent-2.0.3.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
-          <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
+        <state relative-caret-position="76">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-turbine/src/main/java/com/cloud/turbine/CloudTurbineApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/src/main/java/com/cloud/core/interceptor/TokenInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-zipkin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-security-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-security-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-sort/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-maven-3.3.9/lib/maven-model-builder-3.3.9.jar!/org/apache/maven/model/pom-4.0.0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="61" column="16" lean-forward="true" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-monitor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-turbine/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka/target/docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/com/cloud/eureka/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="542">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1411,7 +1486,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-manage-user</last-edited>
+          <last-edited>Spring|cloud-discovery</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1460,6 +1535,7 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="D:\My Object\cloud-master\cloud-eureka" />
+    <option value="clean package docker:build -Dmaven.test.skip=true" />
     <option value="clean package docker:build" />
     <option value="package -Dmaven.test.failture.ignore=true" />
     <option value="docker images" />

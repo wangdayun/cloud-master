@@ -29,11 +29,15 @@
         <option value="$PROJECT_DIR$/cloud-component-common/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-component-core/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-component-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-discovery/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-sort/pom.xml" />
       </set>
     </option>
   </component>

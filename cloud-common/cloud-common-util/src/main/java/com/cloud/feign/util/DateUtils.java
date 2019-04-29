@@ -9,7 +9,7 @@ import java.util.Date;
  * @author : dayun_wang
  */
 public class DateUtils {
-    public static final String DEFAULTTIMEFORMAT = "yyyy-MM-dd HH:mm:ss";
+    public static final String DEFAULT_TIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
 
     /**
      * 获取当前时间
@@ -17,7 +17,7 @@ public class DateUtils {
      * @return
      */
     public static String getTime() {
-        SimpleDateFormat format = new SimpleDateFormat(DEFAULTTIMEFORMAT);
+        SimpleDateFormat format = new SimpleDateFormat(DEFAULT_TIME_FORMAT);
         return format.format(new Date());
     }
 }

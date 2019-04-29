@@ -2,7 +2,6 @@ package com.cloud.feign.model;
 
 import lombok.Data;
 
-import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
@@ -11,16 +10,59 @@ import java.sql.Timestamp;
  *
  * @author dayun_wang
  */
-@Data
-@Entity
-@Table(name = "user")
 public class User implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer userId;
+    private String userId;
     private String userName;
     private String passWord;
-    private Timestamp createTime;
+    private String createTime;
+    private String updateTime;
 
+    public User(String userId, String userName, String passWord, String createTime, String updateTime) {
+        this.userId = userId;
+        this.userName = userName;
+        this.passWord = passWord;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPassWord() {
+        return passWord;
+    }
+
+    public void setPassWord(String passWord) {
+        this.passWord = passWord;
+    }
+
+    public String getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
+    }
+
+    public String getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(String updateTime) {
+        this.updateTime = updateTime;
+    }
 }

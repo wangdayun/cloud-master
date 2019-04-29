@@ -1,6 +1,6 @@
 package com.cloud.feign.config;
 
-import com.cloud.feign.util.RedisUtils;
+import com.cloud.core.common.RedisUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +16,6 @@ import redis.clients.jedis.JedisPoolConfig;
  *
  * @author dayun_wang
  */
-@Configuration
 public class RedisConfiguration {
 
     @Value("${spring.redis.maxIdle}")
