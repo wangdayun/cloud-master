@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-zipkin" />
+        <module name="cloud-manage-user-api" />
         <module name="cloud-common-util" />
         <module name="cloud-manage-user" />
         <module name="cloud-manage-api" />
@@ -21,7 +22,6 @@
         <module name="cloud-eureka" />
         <module name="cloud-hystrix" />
         <module name="cloud-security-auth" />
-        <module name="cloud-manage-user-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

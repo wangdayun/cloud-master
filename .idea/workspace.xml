@@ -5,7 +5,10 @@
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fafcc91-70e5-4f42-8f72-49d062aaf768" name="Default" comment="新建" />
+    <list default="true" id="6fafcc91-70e5-4f42-8f72-49d062aaf768" name="Default" comment="新建">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cloud-hystrix/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config/target/" />
     <ignored path="$PROJECT_DIR$/cloud-eureka/target/" />
@@ -129,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessAuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
+            <state relative-caret-position="931">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -229,7 +232,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cloud-master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -344,6 +347,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,7 +359,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -376,7 +379,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4107677" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -776,7 +779,8 @@
       <workItem from="1556248409475" duration="18778000" />
       <workItem from="1556371623121" duration="239000" />
       <workItem from="1556415672873" duration="22209000" />
-      <workItem from="1556502442317" duration="400000" />
+      <workItem from="1556502442317" duration="610000" />
+      <workItem from="1556503065337" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="杂七杂八的修改">
       <created>1540548962666</created>
@@ -880,7 +884,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526536000" />
+    <option name="totallyTimeSpent" value="526846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -998,7 +1002,6 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="cloud-master" />
-      <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/cloud-master" />
     </ignored-roots>
     <MESSAGE value="杂七杂八的修改" />
@@ -1391,7 +1394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessAuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
+        <state relative-caret-position="931">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
