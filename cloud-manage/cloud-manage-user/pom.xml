@@ -28,7 +28,6 @@
             <groupId>com.cloud</groupId>
             <artifactId>cloud-common-util</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
 
         <!-- 用户接口 -->
@@ -36,7 +35,6 @@
             <groupId>com.cloud</groupId>
             <artifactId>cloud-manage-user-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
 
 
