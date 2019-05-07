@@ -10,8 +10,8 @@
     <!-- 导入父类 --> 
     <parent>
         <groupId>com.cloud</groupId>
-        <artifactId>cloud-master</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <artifactId>cloud-manage-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <dependencies>
