@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cloud-discovery" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-eureka" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-hystrix" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-turbine" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-zipkin" />
     <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
@@ -35,9 +43,12 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-common/cloud-security-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/cloud-security-core/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-sort-api/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-sort/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-test/pom.xml" />
       </set>
     </option>
   </component>

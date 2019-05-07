@@ -27,13 +27,12 @@ public class ZuulFallBackProvider implements FallbackProvider {
 
     @Override
     public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
-        if (cause instanceof HystrixTimeoutException){
+        if (cause instanceof HystrixTimeoutException) {
             return response(HttpStatus.GATEWAY_TIMEOUT);
-        }else {
+        } else {
             return fallbackResponse();
         }
     }
-
 
     public ClientHttpResponse fallbackResponse() {
         return response(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -42,17 +41,17 @@ public class ZuulFallBackProvider implements FallbackProvider {
     private ClientHttpResponse response(HttpStatus status) {
         return new ClientHttpResponse() {
             @Override
-            public HttpStatus getStatusCode(){
+            public HttpStatus getStatusCode() {
                 return status;
             }
 
             @Override
-            public int getRawStatusCode(){
+            public int getRawStatusCode() {
                 return status.value();
             }
 
             @Override
-            public String getStatusText(){
+            public String getStatusText() {
                 return status.getReasonPhrase();
             }
 
@@ -62,11 +61,11 @@ public class ZuulFallBackProvider implements FallbackProvider {
             }
 
             @Override
-            public InputStream getBody(){
+            public InputStream getBody() {
                 String message = "{\n" +
-                                    "\"status\": false,\n" +
-                                    "\"message\": \"服务器发生故障, 请稍后再试...\"\n" +
-                                 "}";
+                        "\"status\": false,\n" +
+                        "\"message\": \"服务器发生故障, 请稍后再试...\"\n" +
+                        "}";
                 return new ByteArrayInputStream(message.getBytes());
             }
 

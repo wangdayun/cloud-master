@@ -17,16 +17,17 @@ import org.springframework.context.annotation.Bean;
 @EnableZuulProxy
 public class ZuulServerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ZuulServerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ZuulServerApplication.class, args);
+    }
 
-	/**
-	 * 过滤器
-	 * @return
-	 */
-	@Bean
-	public AccessAuthFilter accessFilter(){
-		return new AccessAuthFilter();
-	}
+    /**
+     * 过滤器
+     *
+     * @return
+     */
+    @Bean
+    public AccessAuthFilter accessFilter() {
+        return new AccessAuthFilter();
+    }
 }

@@ -34,22 +34,22 @@ public class TokenInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-//        String uri = request.getRequestURI();
-//        String authorization = request.getHeader("x-label");
-//        BaseUtils.addDebugLog("<=preHandle-权限拦截器...:" + uri + ",authorization:" + authorization);
-//        // 配置免验证的方法
-//
-//        // 验证token是否正确
-//        if (StringUtils.isNotBlank(authorization)) {
-//            JwtKeyUtils.getInstance();
-//            RsaResult result = JwtKeyUtils.checkToken(authorization);
-//            if (result.isStatus()) {
-//                BaseUtils.addDebugLog("<=preHandle-权限拦截器...验证成功uri:" + uri);
-//                return true;
-//            }
-//        }
-//        BaseUtils.addDebugLog("<=preHandle-权限拦截器...验证失败,非法请求！uri:" + uri);
-//        handleException(response);
+        String uri = request.getRequestURI();
+        String authorization = request.getHeader("Authorization");
+        BaseUtils.addDebugLog("<=preHandle-权限拦截器...:" + uri + ",authorization:" + authorization);
+        // 配置免验证的方法
+
+        // 验证token是否正确
+        if (StringUtils.isNotBlank(authorization)) {
+            JwtKeyUtils.getInstance();
+            RsaResult result = JwtKeyUtils.checkToken(authorization);
+            if (result.isStatus()) {
+                BaseUtils.addDebugLog("<=preHandle-权限拦截器...验证成功uri:" + uri);
+                return true;
+            }
+        }
+        BaseUtils.addDebugLog("<=preHandle-权限拦截器...验证失败,非法请求！uri:" + uri);
+        handleException(response);
         return true;
     }
 

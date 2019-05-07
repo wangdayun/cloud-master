@@ -13,8 +13,6 @@
         <module>cloud-common-config</module>
         <module>cloud-common-core</module>
         <module>cloud-common-util</module>
-        <module>cloud-security-core</module>
-        <module>cloud-security-auth</module>
     </modules>
 
     <parent>

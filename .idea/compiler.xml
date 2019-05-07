@@ -7,11 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-zipkin" />
-        <module name="cloud-manage-user-api" />
         <module name="cloud-common-util" />
         <module name="cloud-manage-user" />
-        <module name="cloud-manage-api" />
-        <module name="cloud-security-core" />
         <module name="cloud-common-base" />
         <module name="cloud-discovery" />
         <module name="cloud-monitor" />
@@ -21,7 +18,7 @@
         <module name="cloud-common-core" />
         <module name="cloud-eureka" />
         <module name="cloud-hystrix" />
-        <module name="cloud-security-auth" />
+        <module name="cloud-manage-user-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,7 +33,10 @@
       <module name="cloud-feign-service3" target="1.8" />
       <module name="cloud-manage-sort" target="1.8" />
       <module name="cloud-manage-sort-api" target="1.8" />
+      <module name="cloud-security-auth" target="1.8" />
+      <module name="cloud-security-core" target="1.8" />
       <module name="cloud-service-task" target="1.8" />
+      <module name="cloud-test" target="1.8" />
       <module name="ddd" target="1.8" />
       <module name="demo2" target="1.8" />
       <module name="demo5" target="1.8" />
@@ -65,6 +65,7 @@
       <module name="cloud-monitor" options="-parameters" />
       <module name="cloud-security-auth" options="-parameters" />
       <module name="cloud-security-core" options="-parameters" />
+      <module name="cloud-test" options="-parameters" />
       <module name="cloud-turbine" options="-parameters" />
       <module name="cloud-zipkin" options="-parameters" />
     </option>
