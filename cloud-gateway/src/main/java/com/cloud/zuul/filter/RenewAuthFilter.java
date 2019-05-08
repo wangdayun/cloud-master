@@ -4,6 +4,7 @@ import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +23,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author: dayun_wang
  */
 @Component
+@Slf4j
 public class RenewAuthFilter extends ZuulFilter {
 
     private static final Logger logger = LoggerFactory.getLogger(RenewAuthFilter.class);
