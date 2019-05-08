@@ -24,7 +24,6 @@
         <module>cloud-hystrix</module>
         <module>cloud-manage</module>
         <module>cloud-manage-api</module>
-        <module>cloud-monitor</module>
         <module>cloud-zipkin</module>
         <module>cloud-monitor</module>
     </modules>
