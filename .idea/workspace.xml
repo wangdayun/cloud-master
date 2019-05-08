@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fafcc91-70e5-4f42-8f72-49d062aaf768" name="Default" comment="修改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cloud-hystrix/target/" />
@@ -154,16 +153,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -318,8 +317,8 @@
         <option value="$PROJECT_DIR$/cloud-common/cloud-common-util/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway/src/main/java/com/cloud/zuul/filter/AccessAuthFilter.java" />
         <option value="$PROJECT_DIR$/cloud-common/cloud-common-core/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml" />
       </list>
     </option>
   </component>
@@ -1048,7 +1047,7 @@
       <workItem from="1556611983797" duration="275000" />
       <workItem from="1556612287357" duration="11007000" />
       <workItem from="1557134648688" duration="23000" />
-      <workItem from="1557218342467" duration="5827000" />
+      <workItem from="1557218342467" duration="5958000" />
     </task>
     <task id="LOCAL-00001" summary="杂七杂八的修改">
       <created>1540548962666</created>
@@ -1183,7 +1182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557224471488</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="修改">
+      <created>1557281297123</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557281297123</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1201,7 +1207,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="578979000" />
+    <option name="totallyTimeSpent" value="579110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1216,7 +1222,7 @@
     <frame x="90" y="161" width="2398" height="1155" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.25537404" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.25537404" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.31343284" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1227,7 +1233,7 @@
       <window_info id="设计师" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4997543" weight="0.32798395" />
-      <window_info anchor="bottom" x="22" y="393" width="1876" height="254" id="Run" order="2" visible="true" weight="0.38376755" />
+      <window_info active="true" anchor="bottom" x="22" y="393" width="1876" height="254" id="Run" order="2" visible="true" weight="0.38376755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2832244" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1686,17 +1692,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-manage/cloud-manage-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-manage-api/cloud-manage-user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
