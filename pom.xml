@@ -17,13 +17,15 @@
 
     <!-- 所有子模块 -->
     <modules>
+        <module>cloud-common</module>
+        <module>cloud-discovery</module>
         <module>cloud-eureka</module>
-        <module>cloud-hystrix</module>
-        <module>cloud-zipkin</module>
         <module>cloud-gateway</module>
+        <module>cloud-hystrix</module>
         <module>cloud-manage</module>
         <module>cloud-manage-api</module>
-        <module>cloud-common</module>
+        <module>cloud-monitor</module>
+        <module>cloud-zipkin</module>
         <module>cloud-monitor</module>
     </modules>
 
