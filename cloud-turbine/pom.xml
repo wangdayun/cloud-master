@@ -5,7 +5,7 @@
     <groupId>com.cloud</groupId>
     <artifactId>cloud-turbine</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <!-- 导入父类 -->
     <parent>
@@ -66,12 +66,12 @@
                 <configuration>
                     <imageName>${project.artifactId}</imageName>
                     <baseImage>java</baseImage>
-                    <entryPoint>["java", "-war", "/${project.artifactId}.war"]</entryPoint>
+                    <entryPoint>["java", "-jar", "/${project.artifactId}.jar"]</entryPoint>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
                             <directory>${project.build.directory}</directory>
-                            <include>${project.artifactId}.war</include>
+                            <include>${project.artifactId}.jar</include>
                         </resource>
                     </resources>
                 </configuration>
