@@ -26,6 +26,7 @@
         <module>cloud-manage-api</module>
         <module>cloud-zipkin</module>
         <module>cloud-monitor</module>
+        <module>cloud-turbine</module>
     </modules>
 
     <!-- 版本管理 -->
